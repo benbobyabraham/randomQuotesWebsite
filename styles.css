@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #C40000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+
+.button{
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background-color: #FF0000;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    margin-top: 60px;
+    position: fixed;
+    top: 550px;
+    left: 850px;
+}
+
+.button:hover{
+    background-color: #D90000;
+}
+
+.button:active{
+    background-color: #C40000;
+}
+
+.button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    height: 100%;
+}
+
+.button__icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.quotebutton{
+  background-color: white;
+  border-radius: 20px;
+  padding: 150px 1.5rem;
+  border: solid 3px black;
+  width: 700px;
+  height: 600px;
+}
+
+.quotebutton h1{
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.quotebutton small{
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.quotebutton blockquote{
+    color: black;
+    padding: 50px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.quotebutton cite{
+    color: black;
+    display: block;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
